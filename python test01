@@ -1,0 +1,11 @@
+# Pergunta ao usuário se ele vai ganhar kitkat 
+resposta = input("vou ganhar kitkat hoje? (S/N)")
+
+# Verifica a resposta e imprime a mensagem correspondente
+
+if resposta.upper() == "S":
+  print("Obrigado xuxu, adoro você S2 S2 S2")
+elif resposta.upper() == "N":
+  print("A gente vai brigar hein >:(") 
+else: 
+  print("Resposta errada meu bem, manda dnv. Ou com S ou com N!!") 
